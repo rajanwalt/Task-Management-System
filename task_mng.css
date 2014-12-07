@@ -1,0 +1,153 @@
+/* CSS Document */
+html,body  {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	positive:relative;
+	background:#FFFFFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#whole_container  {
+	margin:0px;
+	padding:0px;
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:#FFFFFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#menu_header  {
+	margin:0px;
+	padding:0px;
+	position:relative;
+	height:60px;
+	width:100%;
+	background-color:#999999;
+	display: inline-block;
+	text-align:center;
+}
+#p_head  {
+	font-size:30px;
+	margin:10px 0px 0px 0px;
+}
+#main {
+	margin:5px 0px 0px 0px;
+	padding:0px;
+	position:relative;
+	height:auto;
+	width:inherit;
+	background-color:#FFFFFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+#container  {
+	margin:0px;
+	padding:0% 0% 0% 1%;
+	height: 100%;
+	width: 80%;
+	position:relative;
+	float:left;
+}
+#menu_list_details  {
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	width: 15%;
+	position:relative;
+	float:left;
+	background-color:#E9E9E9;
+}
+#menu_list_details  ul {
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+}
+#menu_list_details li P{
+	display: block;
+	text-decoration:none;
+	height: 20px;
+	width: inherit;
+	padding: 5px ;
+	margin: 2px ;
+	background: inherit;
+	border-left: 4px solid #444;
+	color: #2A2A2A;
+	text-align:left; 
+	font-size: 0.9em;
+	cursor:pointer;
+}  
+#menu_list_details li P:hover {
+	color: #f4f4f4;
+	background: #83B34C;
+	border-left: 4px solid #FAA954;
+} 
+.task_div {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display:inline-block;
+	position:relative;
+}
+.input_details  {
+	position:relative;
+	height:40px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background-color:white;
+	display:inline-block;
+}
+.select_input_textbox  {
+	outline: none;
+	border: 1px solid #c6c6c6;
+	border-radius:4px;
+	color:#737373;
+	width:179px;
+	height:29px;
+	padding-top:2px;
+  
+		
+}
+.select_input_textbox:focus  {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.input_textbox  {
+	outline: none;
+	border: 1px solid #c6c6c6;
+	border-radius:4px;
+	color:#737373;
+	width:175px;
+	height:25px;
+	padding-top:2px;
+  
+		
+}
+.input_textbox:focus  {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+#action_tkn  {
+	width:250px;
+}
+/* pop up */
+#element_to_pop_up { 
+	display:none;width:500px;height:70px;position:relative; background-color:#FFFFFF; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:18px; border-radius:15px;padding:20px;
+}
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+.space  {
+	margin:0px;
+	padding:0px;
+	position:relative;
+	height:5px;
+	width:100%;
+	background-color:#FAA954;
+	display: inline-block;
+}
